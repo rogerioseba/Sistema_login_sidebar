@@ -1,0 +1,25 @@
+{
+    "name": "sistema/login",
+    "description": "Sistema de login",
+    "authors": [
+        {
+            "name": "Rogerio Silva",
+            "email": "rogeriosebastiaosilva@gmail.com"
+        }
+    ],"require": {
+    "php": "^8.1",
+    "ext-pdo": "^8.1",
+    "coffeecode/router": "1.0.*",
+    "jenssegers/blade": "^1.4",
+        "varunsridharan/sweetalert2-php": "^1.0",
+        "phpmailer/phpmailer": "^6.5"
+},
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "../../controllers",
+            "Models\\": "../../models",
+            "Views\\": "../../views",
+            "Helpers\\": "../../helpers"
+        }
+    }
+}
